@@ -1,0 +1,40 @@
+.header-container {
+  background-color: #232323;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 80px;
+}
+
+.website-logo {
+  height: 50px;
+  width: 260px;
+}
+
+.nav-tabs-container {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-tabs {
+  color: white;
+  font-weight: 600;
+}
+
+.nav-tabs:hover {
+  color: rgb(142, 201, 248);
+}
+
+.logout-button {
+  border-radius: 5px;
+  border: 0px;
+  background-color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+}
